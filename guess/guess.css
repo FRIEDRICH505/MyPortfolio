@@ -1,0 +1,41 @@
+#guess-form,
+#guess-form input {
+    font-family: arial, sans-serif;
+}
+
+#guess-form {
+    padding: 10px;
+    max-width: 320px;
+}
+
+#guess-form input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#guess-form input[type=submit] {
+    background: blue;
+    color: red;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#guess-txt {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#guess-txt.high {
+    background: #DEFBE8;
+}
+
+#guess-txt.hit {
+    background: #D8FFBD;
+}
+
+#guess-txt.low {
+    background: #FBE4DE;
+}
